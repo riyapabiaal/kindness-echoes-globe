@@ -135,7 +135,7 @@ function Index() {
         />
       )}
 
-      <Toaster position="top-center" />
+      <Toaster position="top-center" theme="dark" />
     </main>
   );
 }
