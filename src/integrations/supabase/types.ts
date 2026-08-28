@@ -14,7 +14,39 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      kindness_pins: {
+        Row: {
+          author_name: string | null
+          created_at: string
+          id: string
+          lat: number
+          lng: number
+          location_name: string
+          source: string
+          story: string
+        }
+        Insert: {
+          author_name?: string | null
+          created_at?: string
+          id?: string
+          lat: number
+          lng: number
+          location_name?: string
+          source?: string
+          story: string
+        }
+        Update: {
+          author_name?: string | null
+          created_at?: string
+          id?: string
+          lat?: number
+          lng?: number
+          location_name?: string
+          source?: string
+          story?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
