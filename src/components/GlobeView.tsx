@@ -59,7 +59,7 @@ export default function GlobeView({ pins, placing, onPick, onSelect, focus }: Pr
           width={size.w}
           height={size.h}
           backgroundColor="rgba(0,0,0,0)"
-          globeImageUrl="/textures/earth-dark.jpg"
+          globeImageUrl="/textures/earth-night.jpg"
           showAtmosphere
           atmosphereColor="#f3c969"
           atmosphereAltitude={0.18}
